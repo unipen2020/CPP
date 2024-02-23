@@ -9,6 +9,7 @@ class Masodfoku
       Masodfoku(const Masodfoku& m)    ; 
    private:
       int D()                          ;
+   public:
       int megoldasok()                 ;
       double X_1()                     ;
       double X_2()                     ;

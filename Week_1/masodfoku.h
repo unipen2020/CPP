@@ -13,5 +13,11 @@ class Masodfoku
       int megoldasok()                 ;
       double X_1()                     ;
       double X_2()                     ;
+      int getA()                       ;
+      int getB()                       ;
+      int getC()                       ;
+      void setA(int a)                 ;
+      void setB(int b)                 ;
+      void setC(int c)                 ;            
 }
 ;

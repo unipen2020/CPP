@@ -40,4 +40,27 @@ double Masodfoku::X_2()
 {
    return (-this->b - (pow(this->D(),0.5))) / (2 * this->a) ;
 }
-
+int Masodfoku::getA()
+{
+   return this->a ;
+}
+int Masodfoku::getB()
+{
+   return this->b ;
+}
+int Masodfoku::getC()
+{
+   return this->c ;
+}
+void Masodfoku::setA(int a)
+{
+   this->a = a ;
+} 
+void Masodfoku::setB(int b)
+{
+   this->b = b ;
+} 
+void Masodfoku::setC(int c)
+{
+   this->c = c ;
+} 
